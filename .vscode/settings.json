@@ -1,0 +1,81 @@
+{
+  "emmet.showSuggestionsAsSnippets": true,
+  "files.autoSave": "off",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Fira code",
+  "editor.fontSize": 18,
+  "editor.fontLigatures": true,
+  "editor.linkedEditing": true,
+  "window.zoomLevel": 1,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  // config related to code formatting with preitter and es lint
+
+  // cursor style
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+
+  // after selection line color
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#135564"
+    //"editor.selectionHighlightBackground": "#135564"
+  },
+
+  //terminal
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+
+  "workbench.sideBar.location": "left",
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss",
+    "**/*.txt"
+  ],
+  "todohighlight.keywords": [
+    {
+      "text": "[+]",
+      "color": "white",
+      "backgroundColor": "#00af91",
+      "overviewRulerColor": "#00af91"
+    },
+    {
+      "text": "[*]",
+      "color": "white",
+      "backgroundColor": "#f58634",
+      "overviewRulerColor": "#f58634"
+    }
+  ],
+
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "prettier.disableLanguages": ["javascript"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true
+  // config related to code formatting ends
+}
